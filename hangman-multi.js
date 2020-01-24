@@ -31,7 +31,7 @@ let lives=10,word=[],str,count=0;
                 }
            }    
            console.log("\t--------------");
-           console.log("\t|  "+word.join("")+"  |");
+           console.log("\t|  "+word.join(" ")+"  |");
            console.log("\t--------------");
          if(flag===0)        
          console.log("\nWRONG..!\nYou Have "+(--lives)+" Lives Remaining.\n");                                     
@@ -78,7 +78,7 @@ let lives=10,word=[],str,count=0;
                 }
            }    
            console.log("\t--------------");
-           console.log("\t|  "+word.join("")+"  |");
+           console.log("\t|  "+word.join(" ")+"  |");
            console.log("\t--------------");
          if(flag===0)        
          console.log("\nWRONG LETTER..!\nYou Have "+(--lives)+" Lives Remaining.\n");                                     
@@ -125,7 +125,7 @@ let lives=10,word=[],str,count=0;
                 }
            }    
            console.log("\t--------------");
-           console.log("\t|  "+word.join("")+"  |");
+           console.log("\t|  "+word.join(" ")+"  |");
            console.log("\t--------------");
          if(flag===0)        
          console.log("\nWRONG LETTER..!\nYou Have "+(--lives)+" Lives Remaining.\n");                                     
